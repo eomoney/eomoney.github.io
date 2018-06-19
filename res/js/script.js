@@ -11,3 +11,11 @@ function buttonclick() {
     document.getElementById('smaller').style.display = 'none';
   }
 }
+
+function review() {
+  if (document.getElementById('write').style.display == 'none') {
+    document.getElementById('write').style.display = 'block';
+  }else{
+    document.getElementById('write').style.display = 'none';
+  }
+}

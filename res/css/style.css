@@ -20,6 +20,17 @@ header{ /* Меню */
   font-size: 17px;
 }
 
+#write{
+  transition: 1s all;
+  display: none;
+  height: 400px;
+  width: 500px;
+  position: fixed;
+  margin-top: 15%;
+  margin-left: 37%;
+  background-color: rgba(255, 255, 255, 0.86);
+}
+
 header ul{list-style: none;margin-right: 20px;} /* Блоки меню */
 
 header a{ /* Ссылки меню */
@@ -63,7 +74,7 @@ header #enter:hover{ /* При наведении на регистрацию/в
 }
 
 .mainblock h1{font-size: 50px;} /* Большой текст в главном блоке */
-.mainblock h2{font-size: 25px;   margin-bottom: 0px;}/* Текст поменьше */
+.mainblock h2{font-size: 25px;  margin-top: 20px; margin-bottom: 0px; margin-left: 100px; margin-right: 100px;}/* Текст поменьше */
 
 .button{/* Вид кнопок на сайте */
   display: block;
@@ -89,6 +100,10 @@ header #enter:hover{ /* При наведении на регистрацию/в
 
 .info h1{text-align: center;font-size: 40px;padding: 40px; margin-top: 40px; display: block;} /* Инфа */
 .info p{font-size: 20px; padding: 0px 20px 0px 20px;}/* Инфа */
+.info span{font-size: 25px; padding: 0px 0px 0px 0px; font-weight: bold; }/* Важная Инфа (span) */
+.brands img{
+  margin-left: 10px;
+}
 
 .faqblock{ /* Вопрос-Ответ (то, что с картинкой) */
   margin-top: 100px;
