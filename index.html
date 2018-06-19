@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="res/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet"> <!--Импорт Шрифта-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--Импорт иконок icons.google.com-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--Ипорт иконок соц. сетей-->
+  <link rel="icon"  type="image/png" href="res/img/favicon.ico"><!--лого сайта-->
+  <script src="res/js/script.js"></script><!-- Подключение js файла-->
+  <title>EoMoney | Главная</title>
+</head>
+<body>
+  <header>
+    <div id="menu"><!--Меню-->
+      <ul>
+        <a href="#about" id="project"><li class="menuli">О Проекте</li></a>
+        <a href="#faq" id="faqq"><li class="menuli">FaQ</li></a>
+        <a href="#review" id="reviews"><li class="menuli">Отзывы</li></a>
+        <a href="" id="enter"><li class="menuli">Вход | Регистрация</li></a>
+      </ul>
+    </div>
+  </header>
+
+  <div class="mainblock"> <!--Хэдр (Главный блок)-->
+    <h1 class="bigtext">Вы Бруно Паперно?</h1>
+    <h2 class="smalltext">Живо уходите с этого сайта. Тут вам не рады!</h2>
+    <center>
+      <a class="button" href="#" id="opacity">Уйти!</a>
+    </center>
+    <div class="swipe">
+      <i class="material-icons">mouse</i>
+      <p>Хочешь узнать подробнее?</p>
+      <p>Свайпай вниз!</p>
+    </div>
+  </div>
+
+  <div class="info" id="about"><!--Описание-->
+    <h1>Какова суть сервиса?</h1>
+    <p>Пользователи создают сборы средств на свои нужды, после чего желающие могут отправить деньги на желанную вещь пользователя.
+При регистрации каждому пользователю начисляется 10 баллов, после чего их количество Вы можете пополнять помагая другим сборам.
+На баллы вы можете создавать свои сборы (100 баллов = Сбор на 200 рублей.), которые будут активны 30 дней.
+Из за такой политики большая часть сборов на 53% превышают затраты. Таким образом помогая людям вы будете вознагражденны :)</p>
+  </div>
+
+  <div class="info" id="payment">
+    <h1>В чём наша выгода?</h1>
+    <p>Мы получяем 5% от отправленных на сбор сретств в качестве комисии,
+тем самым мы покрываем все затраты на аренду и продвижения нашего сервиса, а также платим зарпплату нашим замечателным
+сотрудникам.</p>
+<center><input class="button" id="more" type="button"  onclick="buttonclick()" value="Узнать больше!"></center>
+  </div>
+  <div class="info" id="a1"> <!--Js, который открывается после нажатия кнопки-->
+    <h1>Какова суть сервиса?</h1>
+    <p>Пользователи создают сборы средств на свои нужды, после чего желающие могут отправить деньги на желанную вещь пользователя.
+При регистрации каждому пользователю начисляется 10 баллов, после чего их количество Вы можете пополнять помагая другим сборам.
+На баллы вы можете создавать свои сборы (100 баллов = Сбор на 200 рублей.), которые будут активны 30 дней.
+Из за такой политики большая часть сборов на 53% превышают затраты. Таким образом помогая людям вы будете вознагражденны :)</p>
+  </div>
+
+  <div class="info" id="a2">
+    <h1>В чём наша выгода?</h1>
+    <p>Мы получяем 5% от отправленных на сбор сретств в качестве комисии,
+тем самым мы покрываем все затраты на аренду и продвижения нашего сервиса, а также платим зарпплату нашим замечателным
+сотрудникам.</p>
+  </div>
+  <center><input class="button" id="smaller" type="button"  onclick="buttonclick()" value="Скрыть"></center>
+
+  <div class="faqblock" id="faq"><h1>FaQ (Вопрос-Ответ)</h1></div> <!--Ответы на вопросы-->
+  <div class="faqansvers">
+    <h1>Вопрос 1: Это Легально?</h1>
+    <h2>- Да это обсолютно легально.</h2>
+    <h1>Вопрос 2: Сборы можно создавать бесплатно?</h1>
+    <h2>- Нет, сборы можно создавать на выши баллы. Чем больше у вас баллов, тем на большую сумму вы можете сделать сбор.</h2>
+    <h1>Вопрос 3: Сколько по времени будет активен сбор?</h1>
+    <h2>- 30 Дней, после чего он заморажвается и вы можете вывести деньги, либо снова его активировать за баллы.</h2>
+    <h1>Вопрос 4: Сколько денег со сборов я могу получить?</h1>
+    <h2>- В зависимости от количества баллов у вас на счету.</h2>
+    <h1>Вопрос 5: Как получить баллы?</h1>
+    <h2>- Баллы Вы получате за помощь другим сборщикам.</h2>
+  </div>
+
+<div class="lastblock">
+  <center>
+    <h1 class="info" id="review">Отзывы</h1> <!--Отзывы-->
+    <div class="reviewblock">
+      <img src="res/img/user_1.jpg" alt="">
+      <div class="desc">
+        <h1>Человек НомерОдин</h1>
+          <p class="desc">Мне очень понравилось, я крутой. Если ты крутой, то тоже обязан пользоватся сервисом. Аааааааа Йо, йе, йоу йоу йоу, санар бой.</p>
+      </div>
+    </div>
+    <div class="reviewblock">
+      <img src="res/img/user_2.jpg" alt="">
+      <div class="desc">
+        <h1>Человек НомерДва</h1>
+          <p class="desc">Заработала милльард долларов, если хочешь также то регистрируйся. Смогла на эти деньги купить шляпу.</p>
+      </div>
+    </div>
+
+    <div class="reviewblock">
+      <img src="res/img/user_3.jpg" alt="">
+      <div class="desc">
+        <h1>Человек НомерТри</h1>
+          <p class="desc">Я фотограф и я не знаю что написать, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa</p>
+      </div>
+    </div>
+
+    <div class="reviewblock">
+      <img src="res/img/user_4.jpg" alt="">
+      <div class="desc">
+        <h1>Человек НомерЧетыре</h1>
+          <p class="desc">Я простой Азиат из бедной семьи, я зарегистрировался тут чтобы купить свою желанную вещь - большие глаза. </p>
+      </div>
+    </div>
+
+    <div class="reviewblock">
+      <img src="res/img/user_5.jpg" alt="">
+      <div class="desc">
+        <h1>Человек НомерПять</h1>
+          <p class="desc">Я очень люблю играть с майнкрафт, а это значит что я лучший на этой планете. Не то что вы. Ха-ха-ха</p>
+      </div>
+    </div>
+
+    <div class="reviewblock">
+      <img src="res/img/user_4.jpg" alt="">
+      <div class="desc">
+        <h1>Человек НомерШесть</h1>
+          <p class="desc">Я давно хотел быть стримером, но не было денег на оборудование. С этим сервисом я получил столько, сколько мне надо было.</p>
+      </div>
+    </div>
+  </center>
+</div>
+
+  <div class="footer"> <!--Футер-->
+    <div class="infoblock">
+      <h1>Тех. Поддержка:</h1>
+      <h2>Тел.: <a href="callto:+37126946225">+37126946225</a></h2>
+      <h2>Эл. Почта: <a href="mailto:artem.kutnevsky@gmail.com">artem.kutnevsky@gmail.com</a></h2>
+      <h2>Оффис: <a href="maps.google.com">Ruses iela 20-13</a></h2>
+    </div>
+    <div class="infoblock">
+      <h1>Мы в Соц. Сетях</h1>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-vk"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+  </div>
+
+</body>
+</html>
